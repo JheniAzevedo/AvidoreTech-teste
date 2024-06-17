@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avidore Tech - Loja de Eletrônicos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Avidore Tech</h1>
+        <nav>
+            <ul>
+                <li><a href="#" data-section="home">Home</a></li>
+                <li><a href="#" data-section="produtos">Produtos</a></li>
+                <li><a href="#" data-section="sobre">Sobre</a></li>
+                <li><a href="#" data-section="contato">Contato</a></li>
+                <li><img src="img/carrinho.png" alt="Carrinho" class="cart-icon" id="cart-icon"></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="section active">
+            <section class="banner">
+                <img src="img/Banner Home.png" alt="Banner da loja" class="active">
+                <img src="img/Promo.png" alt="Banner da loja">
+                <img src="img/Fone Promo.png" alt="Banner da loja">
+                <div class="arrows">
+                    <span id="prev">&lt;</span>
+                    <span id="next">&gt;</span>
+                </div>
+                <div class="indicators">
+                    <span class="active"></span> <!--para carrosel de imagens home-->
+                    <span></span>
+                    <span></span>
+                </div>
+            </section>
+            <center>
+            <section class="intro">
+                <h2>Bem-vindo à nossa loja!</h2>
+                <p>Na Avidore Tech, onde jornada para a inovação começa. Explore nossa ampla variedade de eletrônicos de última geração, desde smartphones e consoles até computadores e peças para montar o seu próprio pc!<br> Acesse nossa aba de produtos e saiba mais! Em caso de dúvida ou sugestão acesse a aba contato.  </p>
+            </section>
+            </center>           
+        </section>
+
+
+        <section id="produtos" class="section">
+            <center>
+            <h2>Conheça os nossos Produtos</h2>
+            </center>
+            <div class="produtos">
+                <div class="produto">
+                    <img src="img/switcholed.png" alt="Nintendo Switch OLED">
+                    <h3>Nintendo Switch OLED</h3>
+                    <p>Eleve o nível das suas partidas com uma tela OLED com cores vibrantes.</p>
+                    <p>R$ 2.099,00</p>
+                    <a href="#" data-section="detalhe-produto" data-produto="1">Ver detalhes</a>
+                    <div class="rating"> <!--avaliação do produto-->
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i> 
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>      
+                    </div>
+                </div>
+                <div class="produto">
+                    <img src="img/SwitchLite.png" alt="Nintendo Switch Lite">
+                    <h3>Nintendo Switch Lite</h3>
+                    <p>Dedicado ao jogo portátil.</p>
+                    <p>R$ 1.899,90</p>
+                    <a href="#" data-section="detalhe-produto" data-produto="2">Ver detalhes</a>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>       
+                    </div>
+                </div>
+                <div class="produto">
+                    <img src="img/pcgamer.png" alt="PC Gamer">
+                    <h3>PC Gamer Avidore Tech</h3>
+                    <p>Setup inicial para quem está iniciando no mundo gamer, um PC que surpreende pelo custo benefício.</p>
+                    <p>R$ 2.399,99</p>
+                    <a href="#" data-section="detalhe-produto" data-produto="3">Ver detalhes</a>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                </div>
+                <div class="produto">
+                    <img src="img/s23.png" alt="Galaxy S23 5G">
+                    <h3>Galaxy S23</h3>
+                    <p>Celular de alto desempenho da marca Samsung, que impressiona pela tela de ótima qualidade e um tamanho compacto.</p>
+                    <p>R$ 2.590,00</p>
+                    <a href="#" data-section="detalhe-produto" data-produto="4">Ver detalhes</a>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                </div>
+                <div class="produto">
+                    <img src="img/Fone de ouvido.png" alt="Fone Bluetooth">
+                    <h3>Fone Qcy T17</h3>
+                    <p>Fone Qcy T17 Bluetooth 5.1 Modo Game E Cancelamento De Ruído Cor Preto.</p>
+                    <p>R$ 74,50</p>
+                    <a href="#" data-section="detalhe-produto" data-produto="5">Ver detalhes</a>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                </div>
+                <div class="produto">
+                    <img src="img/Placa de video.png" alt="RTX 3050">
+                    <h3>MSI RTX 3050 Ventus</h3>
+                    <p>Placa de Vídeo MSI RTX 3050 Ventus 2X XS OC NVIDIA GeForce, 8GB GDDR6.</p>
+                    <p>R$ 1.564,90</p>
+                    <a href="#" data-section="detalhe-produto" data-produto="6">Ver detalhes</a>
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="detalhe-produto" class="section">
+            <div class="detalhe-produto">
+                <div class="miniaturas"> <!--Imagens ao lado da imagen principal-->
+                    <img src="img/switcholed.png" data-src="img/switcholed.png" alt="Nintendo Switch OLED">
+                    <img src="img/switcholed2.png" data-src="img/switcholed2.png" alt="Nintendo Switch OLED">
+                    <img src="img/switcholed3.png" data-src="img/switcholed3.png" alt="Nintendo Switch OLED">
+                    <img src="img/switcholed4.png" data-src="img/switcholed4.png" alt="Nintendo Switch OLED">
+                </div>
+                <div class="imagem-container">
+                    <img id="detalhe-imagem" src="img/switcholed.png" alt="Produto">
+                </div>
+                <div class="detalhe-info">
+                    <h2 id="detalhe-titulo">Nintendo Switch OLED</h2>
+                    <p id="detalhe-preco">R$ 2.099,00</p>
+                    <button id="adicionar-carrinho">Adicionar ao Carrinho</button>
+                    <button id="favoritar-Produto" class="favoritar"><i class="fas fa-heart"></i> Favoritar</button>
+                    <p id="detalhe-descricao">Inovador e versátil, o Nintendo Switch OLED veio para trazer ainda mais imersão à sua experiência ao jogar. Com a tela de 7 polegadas OLED e o áudio aprimorado, você pode sentir as cores vibrarem e os sons ressoarem. Desenvolvido para ser um console portátil e doméstico, o Nintendo Switch se desdobra em 3 modos: modo TV, modo semiportátil e modo portátil. Seus controles, os Joy-Con, também são adaptáveis e podem ser compartilhados, ou explorados da melhor forma, quando você estiver jogando sozinho. A bateria do video game possui entre 4.5 horas e 9 horas de autonomia, permitindo que você aproveite cada jogo ao máximo, podendo ser carregada enquanto joga. Além disso, o armazenamento extenso, de 64GB, permite que você não limite sua biblioteca de games e experiencia o que desejar. Estão inclusos na caixa do seu Nintendo Switch: dois Joy-Con (esquerdo e direito), um suporte para Joy-Con, um console Nintendo Switch, uma base, duas alças Joy-Con e um adaptador CA.</p>
+                    <div class="detalhes-tecnicos">
+                        <h3>Especificações Técnicas</h3>
+                        <ul id="detalhe-especificacoes">
+                            <li>Dimensões do produto: 23,88 x 10,16 x 1,4 cm; 1,45 kg</li>
+                            <li>Tamanho da tela: 6.2 polegadas</li>
+                            <li>Cor do modelo: branco</li>
+                        </ul>
+                    </div>
+                    <button id="voltar-produtos">Voltar</button>
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="section about-section">
+   
+            <h3>Missão</h3>
+            <p>Nossa missão é proporcionar aos nossos clientes acesso às mais recentes inovações tecnológicas no universo dos games, garantindo produtos de alta qualidade e um serviço de atendimento ao cliente excepcional. Queremos ser a primeira escolha quando se trata de equipamentos e acessórios para games, fornecendo soluções que melhorem a experiência de jogo e impulsionem a performance dos gamers.</p>
+            
+            <h3>Visão</h3>
+            <p>Nossa visão é ser reconhecida como a principal loja de eletrônicos para games do Brasil, conhecida por sua inovação, qualidade e comprometimento com a satisfação do cliente. Aspiramos a liderar o mercado, oferecendo produtos de ponta e serviços que excedem as expectativas dos gamers.</p>
+                                  
+            <h3>Nosso Futuro</h3>
+            <p>Olhando para o futuro, estamos comprometidos em continuar a crescer e inovar. Planejamos expandir nossa presença, introduzir novas linhas de produtos e aprimorar ainda mais nossa experiência de cliente. Na Avidore Tech, o futuro dos games é agora, e estamos entusiasmados em compartilhar essa jornada com você.</p>
+            <center>
+                <img src="img/SobreNós.png" alt="Sobre a loja" width="500px" class="about-image">
+            </center>
+        </section>
+
+
+        <section id="contato" class="section contact-section"> <!--informações para coocar no formulario-->
+            <h2>Fales Conosco</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <form id="contatoForm" class="contact-form">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required>
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                    <div class="info-contato">
+                        <p><strong>Endereço:</strong> Rua dos Switch's, 5009, São Paulo, São Paulo</p>
+                        <p><strong>Telefone:</strong> (11) 0001-5678</p>
+                        <p><strong>Email:</strong> faleconosco@avidoretech.com</p>
+                    </div>
+                </div>
+                <div class="mapa-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31109.049921992354!2d-46.638813!3d-23.548943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59bb23c703f1%3A0x589a563d0b4e43f0!2sPra%C3%A7a%20da%20S%C3%A9%2C%20S%C3%A9%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001001-001%2C%20Brazil!5e0!3m2!1sen!2sus!4v1627880824881!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 Avidore Tech. Todos os direitos reservados.</p>
+    </footer>
+        
+    <div class="cart-sidebar" id="cart-sidebar">
+        <h3>Carrinho de Compras</h3>
+        <ul id="cart-items"></ul>
+        <a href="#" class="checkout" id="checkout">Finalizar Compra</a>
+    </div>
+    <div class="overlay" id="overlay"></div>
+
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
